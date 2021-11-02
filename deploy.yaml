@@ -1,40 +1,35 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: queue
+  name: product-api
 spec:
   selector:
     matchLabels:
-      app: queue
+      app: product-api
   replicas: 1
   template: # template for the pods
     metadata:
       labels:
-        app: queue
+        app: product-api
     spec:
       containers:
-      - name: queue
+      - name: product-api
         image: ${REPOSITORY_TAG}
         imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: fleetman-queue
+  name: product-service-1
 
 spec:
   # This defines which pods are going to be represented by this Service
   # The service becomes a network endpoint for either other services
   # or maybe external users to connect to (eg browser) 
   selector:
-    app: queue
-
+    app: product-api
+    
   ports:
-    - name: http
-      port: 8161
-      nodePort: 30010
-
-    - name: endpoint
-      port: 61616
+    - containerPort: 80
 
   type: NodePort
