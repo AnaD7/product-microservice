@@ -11,11 +11,6 @@ pipeline {
    }
 
    stages {
-      stage('Preparation') {
-         steps {
-            cleanWs()
-         }
-      }
       stage('Build') {
          steps {
             sh '''echo No build required for Product microservice'''
