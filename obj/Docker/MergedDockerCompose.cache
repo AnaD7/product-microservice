@@ -1,0 +1,17 @@
+services:
+  devopsmicroservices:
+    build:
+      context: .
+      dockerfile: DevOpsMicroservices/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: devopsmicroservices
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose1047899846300257802_default

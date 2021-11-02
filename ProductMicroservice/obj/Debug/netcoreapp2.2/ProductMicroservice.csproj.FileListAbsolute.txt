@@ -1,0 +1,6 @@
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.csproj.AssemblyReference.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.AssemblyInfoInputs.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.AssemblyInfo.cs
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.RazorAssemblyInfo.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\ProductMicroservice\obj\Debug\netcoreapp2.2\ProductMicroservice.RazorAssemblyInfo.cs

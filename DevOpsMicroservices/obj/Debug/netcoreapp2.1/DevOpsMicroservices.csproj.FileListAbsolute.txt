@@ -1,0 +1,16 @@
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\DevOpsMicroservices.deps.json
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\DevOpsMicroservices.runtimeconfig.json
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\DevOpsMicroservices.runtimeconfig.dev.json
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\DevOpsMicroservices.dll
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\bin\Debug\netcoreapp2.1\DevOpsMicroservices.pdb
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.AssemblyInfoInputs.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.AssemblyInfo.cs
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.csproj.CoreCompileInputs.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.RazorAssemblyInfo.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.RazorAssemblyInfo.cs
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.RazorTargetAssemblyInfo.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.dll
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.pdb
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.genruntimeconfig.cache

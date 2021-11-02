@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  devopsmicroservices:
+    image: ${DOCKER_REGISTRY-}devopsmicroservices
+    build:
+      context: .
+      dockerfile: DevOpsMicroservices/Dockerfile
