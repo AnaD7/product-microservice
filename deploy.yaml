@@ -1,37 +1,37 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: product-api
+  name: product-api-1
 spec:
   selector:
     matchLabels:
-      app: product-api
+      app: product-api-1
   replicas: 1
   template: # template for the pods
     metadata:
       labels:
-        app: product-api
+        app: product-api-1
     spec:
       containers:
-      - name: product-api
+      - name: product-api-1
         image: ${REPOSITORY_TAG}
         imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: product-service-1
+  name: product-service-2
 
 spec:
   # This defines which pods are going to be represented by this Service
   # The service becomes a network endpoint for either other services
   # or maybe external users to connect to (eg browser) 
   selector:
-    app: product-api
+    app: product-api-1
     
   ports:
     - name: http
-      port: 80
-      nodePort: 30080
+      port: 443
+      nodePort: 9376 
 
   type: NodePort
