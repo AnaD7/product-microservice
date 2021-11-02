@@ -13,7 +13,7 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            sh '''echo No build required for Queue'''
+            sh '''echo No build required for Product microservice'''
          }
       }
 
