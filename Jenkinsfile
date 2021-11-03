@@ -26,7 +26,7 @@ pipeline {
 	   
       stage('Test') {
          steps {
-	    sh 'echo %USERPROFILE%'
+	    sh 'export PATH=/usr/local/share/dotnet:$PATH'
             sh 'dotnet test ProductMicroservice.sln'
 	 }
       }
