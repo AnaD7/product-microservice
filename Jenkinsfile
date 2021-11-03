@@ -26,6 +26,7 @@ pipeline {
 	   
       stage('Test') {
          steps {
+	    sh 'echo %USERPROFILE%'
             sh 'dotnet test ProductMicroservice.sln'
 	 }
       }
