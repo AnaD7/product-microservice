@@ -26,9 +26,13 @@ pipeline {
 	   
       stage('Test') {
          steps {
-            sh 'ln -s /usr/local/share/dotnet/dotnet /usr/local/bin'
-            sh 'dotnet --version'
-            sh 'dotnet test ProductMicroservice.sln'                        
+		 pwsh '''
+            	sudo apt-get update; \
+		sudo apt-get install -y apt-transport-https && \
+	  	sudo apt-get update && \
+	 	sudo apt-get install -y dotnet-sdk-5.0
+            	dotnet test ProductMicroservice.sln
+	    '''
 	 }
       }
       
