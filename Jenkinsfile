@@ -26,9 +26,9 @@ pipeline {
 	   
       stage('Test') {
          steps {
-            sh '''dotnetTest ProductMicroservice.sln'''                        
-		}
-	}
+            sh 'dotnet test ProductMicroservice.sln'                        
+	 }
+      }
       
       stage('Build and Push Image') {
          steps {
