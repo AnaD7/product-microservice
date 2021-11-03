@@ -14,3 +14,4 @@ C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\D
 C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.dll
 C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.pdb
 C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.genruntimeconfig.cache
+C:\Users\Badalambadad\source\repos\ProductMicroservice\DevOpsMicroservices\obj\Debug\netcoreapp2.1\DevOpsMicroservices.csproj.AssemblyReference.cache

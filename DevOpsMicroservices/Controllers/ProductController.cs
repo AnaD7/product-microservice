@@ -46,6 +46,11 @@ namespace DevOpsMicroservices.Controllers
             }
         }
 
+        public Task GetPost(int postId)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpPut]
         public IActionResult Put([FromBody] Product product)
         {

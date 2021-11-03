@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsMicroservices", "DevO
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{99003771-026E-4325-A63F-5319102F568B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsMicroservicesTests", "DevOpsMicroservicesTests\DevOpsMicroservicesTests.csproj", "{F7341FDF-8B64-4D86-95FE-9EBABD5432BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{99003771-026E-4325-A63F-5319102F568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99003771-026E-4325-A63F-5319102F568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99003771-026E-4325-A63F-5319102F568B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7341FDF-8B64-4D86-95FE-9EBABD5432BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7341FDF-8B64-4D86-95FE-9EBABD5432BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7341FDF-8B64-4D86-95FE-9EBABD5432BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7341FDF-8B64-4D86-95FE-9EBABD5432BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

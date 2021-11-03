@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V/mpb4u8BrO7JOekzKkhC4YQAe/FCEn20t/UKbgcDnWgnNqdjtVsTIu+kxTpeS/pnpfp7jLvP1Mv9RvSuyGatQ==",
+  "dgSpecHash": "U4HD7CCX+lzbnB7Ogfi/cgGPkltHSsdePN//rdL5iU9czhdxjU2UyD5DEC2nWCej+gOYGnvbx2m2PRI624ghIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Badalambadad\\source\\repos\\ProductMicroservice\\DevOpsMicroservices\\DevOpsMicroservices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Badalambadad\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Badalambadad\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Badalambadad\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\Badalambadad\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
