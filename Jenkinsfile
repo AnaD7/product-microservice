@@ -26,7 +26,6 @@ pipeline {
 	   
       stage('Test') {
          steps {
-	    sh 'printenv DOTNET_ROOT'
             sh 'dotnet --version'
             sh 'dotnet test ProductMicroservice.sln'                        
 	 }
