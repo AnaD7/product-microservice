@@ -17,6 +17,12 @@ pipeline {
          }
       }
 
+      stage('Test') {
+         steps {
+            sh '''dotnet test ProductMicroservice.sln'''                        
+			}
+		}
+      
       stage('Build and Push Image') {
          steps {
            sh 'docker image build -t ${REPOSITORY_TAG} .'
