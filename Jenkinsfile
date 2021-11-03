@@ -26,7 +26,8 @@ pipeline {
 	   
       stage('Test') {
          steps {
-	    sh 'export PATH=/usr/local/share/dotnet:$PATH'
+	    sh "printenv DOTNET_ROOT"
+            sh "dotnet --version"
             sh 'dotnet test ProductMicroservice.sln'                        
 	 }
       }
