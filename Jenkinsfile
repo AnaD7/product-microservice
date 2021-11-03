@@ -26,7 +26,7 @@ pipeline {
 	   
       stage('Test') {
          steps {
-            sh '''dotnet test ProductMicroservice.sln'''                        
+            sh '''dotnetTest ProductMicroservice.sln'''                        
 		}
 	}
       
