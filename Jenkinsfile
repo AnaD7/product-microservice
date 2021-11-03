@@ -9,19 +9,27 @@ pipeline {
      SERVICE_NAME = "product-microservice"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${SERVICE_NAME}:${BUILD_ID}"
    }
-
-   stages {
-      stage('Build') {
+	
+ stages {
+      stage('Preparation') {
          steps {
             sh '''echo No build required for Product microservice'''
          }
       }
 
+   stages {
+      stage('Build') {
+        steps {
+            cleanWs()
+	    checkout scm
+	}
+      }
+
       stage('Test') {
          steps {
             sh '''dotnet test ProductMicroservice.sln'''                        
-			}
 		}
+	}
       
       stage('Build and Push Image') {
          steps {
