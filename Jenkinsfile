@@ -24,12 +24,12 @@ pipeline {
          }
       }
 	   
-      stage('Test') {
-         steps {
-	    sh 'export PATH=/usr/local/share/dotnet:$PATH'
-            sh 'dotnet test ProductMicroservice.sln'
-	 }
-      }
+      //stage('Test') {
+         //steps {
+	  //  sh 'export PATH=/usr/local/share/dotnet:$PATH'
+           // sh 'dotnet test ProductMicroservice.sln'
+	 //}
+      //}
       
       stage('Build and Push Image') {
          steps {
